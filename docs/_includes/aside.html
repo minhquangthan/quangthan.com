@@ -1,8 +1,43 @@
-  <aside class="bg-dark">
-      <div class="container text-center">
-          <div class="call-to-action">
-              <h2>I want to add my project into this list!</h2>
-              <a href="#" class="btn btn-default btn-xl wow tada">Here is the idea</a>
-          </div>
-      </div>
-  </aside>
+<aside class="bg-dark">
+    <div class="container text-center">
+        <div class="call-to-action">
+            <h2>I want to add my project into this list!</h2>
+            <button class="btn btn-default btn-xl wow tada" data-toggle="modal" data-target="#contactModal">Here is the
+                idea</button>
+        </div>
+    </div>
+</aside>
+
+<!-- Modal -->
+<div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <form action="https://formspree.io/f/mdoqzebw" method="POST">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Send us a message</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <!-- modify this form HTML and place wherever you want your form -->
+
+                    <label style="display: block;">
+                        Your email: 
+                    </label>
+                    <input type="email" name="email" style="display: block; width: 100%;"> 
+                    <label style="display: block;">
+                        Your message:
+                    </label>
+                    <textarea name="message" rows="5" style="display: block; width: 100%"></textarea>
+                    <!-- your other form fields go here -->
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-primary">Send</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

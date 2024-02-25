@@ -2,7 +2,7 @@
 title: Quang Than's homepage
 email: contact@quangthan.com
 description: Quang Than has everything you need to get your new website up and running in no time! You will have a digital consultant that says out loud your business software needs and come up with the solution that works! > # this means to ignore newlines until "baseurl:"
-baseurl: "/" # the subpath of your site, e.g. /blog/
+baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://quangthan.com" # the base hostname & protocol for your site
 
 # Build settings
