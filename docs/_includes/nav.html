@@ -15,16 +15,36 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
                 <li>
-                    <a class="page-scroll" href="#about">About</a>
+                    <a class="page-scroll" href="#about">{% t nav.about %}</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#services">Services</a>
+                    <a class="page-scroll" href="#services">{% t nav.services %}</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#portfolio">Portfolio</a>
+                    <a class="page-scroll" href="#portfolio">{% t nav.portfolio %}</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#contact">Contact</a>
+                    <a class="page-scroll" href="#contact">{% t nav.contact %}</a>
+                </li>
+
+                <li>
+                    <div class="dropdown language">
+                        <button class="btn btn-default dropdown-toggle" type="button" id="languageDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                            <span class="flag-icon flag-icon-{{ site.lang }}"></span>
+                            {% if site.lang == 'vi' %}<i class="flag-united-kingdom flag m-0"></i>Tiếng Việt{% endif %}
+                            {% if site.lang == 'en' %}<i class="flag-united-kingdom flag m-0"></i>English{% endif %}
+                            {% if site.lang == 'no' %}Norsk{% endif %}
+                            {% if site.lang == 'sv' %}Svenska{% endif %}
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="languageDropdown">
+                            <li><a href="{{ site.baseurl_root }}/vi" class="{% if site.lang == 'vi' %}active{% endif %}"><span class="flag-icon flag-icon-vn"></span>Tiếng Việt</a></li>
+                            <li><a href="{{ site.baseurl_root }}/" class="{% if site.lang == 'en' %}active{% endif %}"><span class="flag-icon flag-icon-us"></span>English</a></li>
+                            <li><a href="{{ site.baseurl_root }}/no" class="{% if site.lang == 'no' %}active{% endif %}"><span class="flag-icon flag-icon-no"></span>Norsk</a></li>
+                            <li><a href="{{ site.baseurl_root }}/sv" class="{% if site.lang == 'sv' %}active{% endif %}"><span class="flag-icon flag-icon-se"></span>Svenska</a></li>
+                        </ul>
+                    </div>
+
                 </li>
             </ul>
         </div>
