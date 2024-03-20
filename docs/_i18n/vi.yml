@@ -1,10 +1,66 @@
+common:
+  close: Đóng
+  send: Gửi
+
 nav:
-  about: Về chúng tôi
+  about: Giới thiệu
   services: Dịch vụ
   contact: Liên hệ
-  portfolio: Bộ sưu tập
+  portfolio: Danh mục
 
 header:
-  title: Trang chủ của Quang Thân
-  description: Quang Thân có tất cả những gì bạn cần để có một trang web mới hoạt động trong thời gian ngắn! Bạn sẽ có một tư vấn viên kỹ thuật số nói lớn về nhu cầu phần mềm kinh doanh của bạn và đưa ra giải pháp hoạt động!
+  title: Trang chủ của Quang Than
+  description: Quang Than có tất cả những gì bạn cần để có trang web mới của bạn hoạt động ngay lập tức! Bạn sẽ có một cố vấn kỹ thuật số nói lên nhu cầu phần mềm kinh doanh của bạn và đưa ra giải pháp phù hợp!
   learn_more: Tìm hiểu thêm
+
+cta:
+  title: Chúng tôi có những gì bạn cần!
+  description: Quang Than có tất cả những gì bạn cần để có trang web mới của bạn hoạt động ngay lập tức! Bạn sẽ có một cố vấn kỹ thuật số nói lên nhu cầu phần mềm kinh doanh của bạn và đưa ra giải pháp phù hợp!
+  start: Bắt đầu!
+
+services:
+  title: Dịch vụ của Chúng tôi
+  service1:
+    title: Phát triển Phần mềm
+    description: Chúng tôi xây dựng trang web, ứng dụng máy tính để bàn và di động cho công ty, nhà hàng và cửa hàng của bạn, kỹ thuật số hóa toàn bộ quy trình kinh doanh của doanh nghiệp của bạn hoặc duy trì và di dời hệ thống kế thừa của bạn.
+  service2:
+    title: Nhóm ở xa
+    description: Chúng tôi cung cấp cá nhân hoặc nhóm chuyên nghiệp làm việc cho bạn từ xa.
+  service3:
+    title: IoT
+    description: Chúng tôi là đối tác chính thức của <a href="https://nhtc.com.vn/" target="_blank">Công ty Công nghệ cao Nha Trang</a> tại châu Âu - nhà thiết kế và nhà sản xuất, chuyên về các thiết bị và giải pháp Internet of Things (#IoTs).
+  service4:
+    title: Phân tích Dữ liệu & Trí tuệ nhân tạo
+    description: Chúng tôi là đại diện của <a href="tcdata.vn" target="_blank">TC Data</a> - nhà cung cấp hàng đầu các giải pháp và đào tạo về Dữ liệu & Trí tuệ nhân tạo cho doanh nghiệp và cá nhân.
+
+portfolio:
+  portfolio1:
+    title: Tích hợp hệ thống CRM
+    description: Xây dựng hệ thống đặt hàng với dữ liệu đơn hàng và khách hàng từ Salesforce.
+  portfolio2:
+    title: Máy tìm kiếm
+    description: Trang web tổng hợp quảng cáo và bộ lọc tìm kiếm.
+  portfolio3:
+    title: IoT
+    description: Bảng điều khiển tính toán lượng khí thải carbon thời gian thực với IoT và OCR.
+  portfolio4:
+    title: Nhà máy thông minh
+    description: Raspberry PI làm bộ lưu trữ sự kiện.
+  portfolio5:
+    title: Các món ăn - Ứng dụng web và di động
+    description: Quản lý nguyên liệu nấu ăn và tạo công thức nấu ăn.
+  portfolio6:
+    title: Blockchain - Ứng dụng web & di động
+    description: Mediterranean Mira - tiền điện tử mới với tài trợ từ nhà đầu tư và bảng điều khiển.
+
+aside:
+  title: Tôi muốn thêm dự án của mình vào danh sách này!
+  here: Đây là ý tưởng
+  send_message: Gửi cho chúng tôi một tin nhắn
+  email: Email của bạn
+  message: Tin nhắn của bạn
+
+contact:
+  title: Hãy Liên hệ với Chúng tôi!
+  description: Sẵn sàng bắt đầu dự án tiếp theo của bạn với chúng tôi? Tuyệt vời! Hãy gọi hoặc gửi email cho chúng tôi và chúng tôi sẽ liên lạc lại với bạn sớm nhất có thể!
+  address: Eikveien 31, 3122 Tønsberg, Na Uy

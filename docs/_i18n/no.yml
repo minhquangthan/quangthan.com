@@ -1,3 +1,7 @@
+common:
+  close: Lukk
+  send: Send
+
 nav:
   about: Om
   services: Tjenester
@@ -6,5 +10,57 @@ nav:
 
 header:
   title: Quang Thans hjemmeside
-  description: Quang Than har alt du trenger for å få din nye nettside opp og kjøre på kort tid! Du vil ha en digital konsulent som sier høyt ut dine forretningsprogramvarebehov og kommer opp med løsningen som fungerer!
-  learn_more: Les mer
+  description: Quang Than har alt du trenger for å få nettstedet ditt opp og kjøre på kort tid! Du vil ha en digital konsulent som uttaler virksomhetens programvarebehov høyt og kommer opp med løsningen som fungerer!
+  learn_more: Lær mer
+
+cta:
+  title: Vi har det du trenger!
+  description: Quang Than har alt du trenger for å få nettstedet ditt opp og kjøre på kort tid! Du vil ha en digital konsulent som uttaler virksomhetens programvarebehov høyt og kommer opp med løsningen som fungerer!
+  start: Kom i gang!
+
+services:
+  title: Til din tjeneste
+  service1:
+    title: Programvareutvikling
+    description: Vi bygger nettsteder, skrivebords- og mobilapper for bedrifter, restauranter og butikker, digitaliserer hele bedriftsprosessen i virksomheten din, eller vedlikeholder og migrerer det eksisterende systemet ditt.
+  service2:
+    title: Offshore Team
+    description: Vi tilbyr dedikerte enkeltpersoner eller team som jobber for deg eksternt.
+  service3:
+    title: IoT
+    description: Vi er den offisielle partneren til <a href="https://nhtc.com.vn/" target="_blank">Nhatrang Hitech-selskapet</a> i Europa - designhuset og produsenten, profesjonell innen Internet of Things (#IoT)-enheter og løsninger.
+  service4:
+    title: Dataanalyse og AI
+    description: Vi er representanten for <a href="tcdata.vn" target="_blank">TC Data</a> - en ledende leverandør av Data- og AI-løsninger og opplæring for bedrifter og enkeltpersoner.</a>
+
+portfolio:
+  portfolio1:
+    title: CRM-systemintegrering
+    description: Bygg et bestillingssystem med ordre- og klientdata fra Salesforce.
+  portfolio2:
+    title: Søkemotor
+    description: Annonseaggregatorer og nettsider for søkefilter.
+  portfolio3:
+    title: IoT
+    description: Sanntidskarbonutslippsregnskap med IoT og OCR.
+  portfolio4:
+    title: Smart fabrikk
+    description: Raspberry Pi som hendelseslogger.
+  portfolio5:
+    title: Cuisines - Web- og mobilapp
+    description: Administrasjon av matlagingsingredienser og opprettelse av oppskrifter.
+  portfolio6:
+    title: Blockchain - Web- og mobilapp
+    description: Mediterranean Mira - ny kryptovaluta med sponsorfinansiering og instrumentbord.
+
+aside:
+  title: Jeg vil legge til prosjektet mitt i denne listen!
+  here: Her er ideen
+  send_message: Send oss en melding
+  email: Din e-post
+  message: Din melding
+
+contact:
+  title: La oss holde kontakten!
+  description: Klar til å starte ditt neste prosjekt med oss? Det er flott! Ring oss eller send oss en e-post, så kommer vi tilbake til deg så snart som mulig!
+  address: Eikveien 31, 3122 Tønsberg, Norge
