@@ -1,3 +1,7 @@
+common:
+  close: Close
+  send: Send
+
 nav:
   about: About
   services: Services
@@ -5,6 +9,59 @@ nav:
   portfolio: Portfolio
 
 header:
- title: Quang Than's homepage
- description: Quang Than has everything you need to get your new website up and running in no time! You will have a digital consultant that says out loud your business software needs and come up with the solution that works!
- learn_more: Learn more
+  title: Quang Than's homepage
+  description: Quang Than has everything you need to get your new website up and running in no time! You will have a digital consultant that says out loud your business software needs and come up with the solution that works!
+  learn_more: Learn more
+
+cta:
+  title: We've got what you need!
+  description: Quang Than has everything you need to get your new website up and running in no time! You will have a digital consultant that says out loud your business software needs and come up with the solution that works!
+  start: Get Started!
+
+services:
+  title: At Your Service
+  service1:
+    title: Software Development
+    description: We build websites, desktop and mobile apps for your companies, restaurants and shops, digitalize the whole business workflow of your enterprise, or maintain & migrate your legacy system.
+  service2:
+    title: Offshore Team
+    description: We provide dedicated individuals or teams that work for you remotely.
+  service3:
+    title: IoT
+    description: We are the official partner of <a href="https://nhtc.com.vn/" target="_blank">Nhatrang Hitech company</a> in Europe - the design house and manufacturer, professional in Internet of Things (#IoTs) devices and solutions.
+  service4:
+    title: Data Analytics & AI
+    description: We are the representative of <a href="tcdata.vn" target="_blank">TC Data</a> - a leading provider of Data & AI solutions & trainings for enterprises & individuals.</a>
+
+portfolio:
+  portfolio1:
+    title: CRM system integration
+    description: Build an order booking system with orders and clients data from Salesforce.
+  portfolio2:
+    title: Search Engine
+    description: Ads Aggregators and search filter websites
+  portfolio3:
+    title: IoT
+    description: Realtime Carbon Emission Accounting Dashboard with IoT and OCR
+  portfolio4:
+    title: Smart Factory
+    description: Raspberry PI as event logger
+  portfolio5:
+    title: Cuisines - Web and mobile app
+    description:  Cooking ingredients management and Recipes creation.
+  portfolio6:
+    title: Blockchain - Web & mobile app
+    description: Mediterranean Mira - new cryptocurrency with sponsor funding and dashboard
+
+aside:
+  title: I want to add my project into this list!
+  here: Here is the idea
+  send_message: Send us a message
+  email: Your email
+  message: Your message
+
+contact:
+  title: Let's Get In Touch!
+  description: Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!
+  address: Eikveien 31, 3122 Tønsberg, Norway
+ 
