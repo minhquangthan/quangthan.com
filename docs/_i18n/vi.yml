@@ -6,16 +6,16 @@ nav:
   about: Giới thiệu
   services: Dịch vụ
   contact: Liên hệ
-  portfolio: Danh mục
+  portfolio: Hồ sơ
 
 header:
   title: Trang chủ của Quang Than
-  description: Quang Than có tất cả những gì bạn cần để có trang web mới của bạn hoạt động ngay lập tức! Bạn sẽ có một cố vấn kỹ thuật số nói lên nhu cầu phần mềm kinh doanh của bạn và đưa ra giải pháp phù hợp!
+  description: Quang Than có tất cả những gì bạn cần để có trang web mới của bạn hoạt động ngay lập tức! Bạn sẽ có một cố vấn kỹ thuật số nói lên nhu cầu phần mềm phục vụ cho việc kinh doanh của bạn và đưa ra giải pháp phù hợp!
   learn_more: Tìm hiểu thêm
 
 cta:
   title: Chúng tôi có những gì bạn cần!
-  description: Quang Than có tất cả những gì bạn cần để có trang web mới của bạn hoạt động ngay lập tức! Bạn sẽ có một cố vấn kỹ thuật số nói lên nhu cầu phần mềm kinh doanh của bạn và đưa ra giải pháp phù hợp!
+  description: Quang Than có tất cả những gì bạn cần để có trang web mới của bạn hoạt động ngay lập tức! Bạn sẽ có một cố vấn kỹ thuật số nói lên nhu cầu phần mềm phục vụ cho việc kinh doanh của bạn và đưa ra giải pháp phù hợp!
   start: Bắt đầu!
 
 services:
@@ -24,10 +24,10 @@ services:
     title: Phát triển Phần mềm
     description: Chúng tôi xây dựng trang web, ứng dụng máy tính để bàn và di động cho công ty, nhà hàng và cửa hàng của bạn, kỹ thuật số hóa toàn bộ quy trình kinh doanh của doanh nghiệp của bạn hoặc duy trì và di dời hệ thống kế thừa của bạn.
   service2:
-    title: Nhóm ở xa
-    description: Chúng tôi cung cấp cá nhân hoặc nhóm chuyên nghiệp làm việc cho bạn từ xa.
+    title: Nhóm phát triển riêng cho bạn
+    description: Chúng tôi cung cấp cá nhân hoặc nhóm chuyên nghiệp phát triển phần mềm cho riêng công ty của bạn từ xa.
   service3:
-    title: IoT
+    title: Internet vạn vật (IoT)
     description: Chúng tôi là đối tác chính thức của <a href="https://nhtc.com.vn/" target="_blank">Công ty Công nghệ cao Nha Trang</a> tại châu Âu - nhà thiết kế và nhà sản xuất, chuyên về các thiết bị và giải pháp Internet of Things (#IoTs).
   service4:
     title: Phân tích Dữ liệu & Trí tuệ nhân tạo
